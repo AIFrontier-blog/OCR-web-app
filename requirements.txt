@@ -9,7 +9,7 @@ cycler
 distlib==0.3.7
 filelock
 Flask
-fonttools==4.43.1
+fonttools
 formulaic==0.6.6
 future==0.18.3
 interface-meta==1.3.0
