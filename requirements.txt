@@ -38,7 +38,6 @@ scipy
 seaborn
 six==1.16.0
 statsmodels
-subprocess
 threadpoolctl
 typing_extensions
 tzdata
