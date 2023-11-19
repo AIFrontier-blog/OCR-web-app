@@ -4,12 +4,7 @@ import pytesseract
 import io
 import subprocess
 
-try:
-    # Tesseractの実行可能ファイルの場所を探す
-    tesseract_path = subprocess.check_output(["which", "tesseract"]).strip().decode('utf-8')
-    print(f"Tesseract path: {tesseract_path}")
-except subprocess.CalledProcessError:
-    print("Tesseract is not installed or not in the PATH.")
+pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'  # または正しいパスに置き換えてください
 
 
 
