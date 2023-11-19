@@ -25,7 +25,7 @@ numpy
 packaging==23.2
 pandas
 patsy==0.5.3
-Pillow==10.1.0
+Pillow
 pipenv==2023.11.15
 platformdirs==3.11.0
 pyparsing==3.1.1
