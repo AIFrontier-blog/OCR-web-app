@@ -38,8 +38,8 @@ seaborn
 six==1.16.0
 statsmodels
 threadpoolctl
-typing_extensions==4.8.0
-tzdata==2023.3
-virtualenv==20.24.6
-Werkzeug==3.0.1
-wrapt==1.15.0
+typing_extensions
+tzdata
+virtualenv
+Werkzeug
+wrapt
