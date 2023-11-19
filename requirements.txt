@@ -4,7 +4,7 @@ autograd-gamma==0.5.0
 blinker
 certifi==2023.11.17
 click==8.1.7
-contourpy==1.1.1
+contourpy
 cycler==0.12.1
 distlib==0.3.7
 filelock==3.13.1
