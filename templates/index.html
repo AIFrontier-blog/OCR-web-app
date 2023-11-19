@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div id="app">
+        <h1>テキスト読み取りくん</h1>
+        <div id="button-container">
+            <!-- <button id="copy-text-button" class="action-button">コピー</button>
+            <button id="save-text-button" class="action-button">保存</button>
+            <button id="reset-button" class="action-button">リセット</button> -->
+
+            <button id="copy-text-button" class="action-button" title="コピー"><i class="material-icons">content_copy</i></button>
+            <button id="save-text-button" class="action-button" title="保存"><i class="material-icons">save</i></button>
+            <button id="reset-button" class="action-button" title="リセット"><i class="material-icons">delete</i></button>
+
+            
+
+        </div>
+        <div id="image-box">
+            <p>画像をここにドラッグ&ドロップ<br>または<br><label for="file-input" class="button">ファイルを選択</label></p>
+            <input type="file" id="file-input" accept="image/*" hidden>
+        </div>
+        <textarea id="text-box" readonly></textarea>
+        <button id="upload-button">実行</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+#app {
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#image-box {
+    border: 1px solid #AFABAB;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#image-box.highlight {
+    border: 2px solid #000; /* 枠線をハイライト表示 */
+}
+
+#image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* 画像がボックスからはみ出ないように */
+}
+
+#text-box {
+    border: 1px solid #AFABAB;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#text-box.active {
+    border: 2px solid #2D83D7; /* テキスト抽出後の枠線をアクティブ表示 */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    background: #2D83D7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2D83D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button-container {
+
+
+    display: flex;
+    justify-content: flex-end; /* 右寄せ */
+    padding-right: 0px; /* 右端からの余白 */
+    margin-bottom: 20px; /* 下のimage-boxとの余白 */
+}
+
+.action-button {
+
+    margin-left: 5px; /* ボタン間のスペース */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Material Iconsの基本的なスタイル（必要に応じて調整） */
+.material-icons {
+    font-size: 24px; /* アイコンのサイズ */
+    color: #2D83D7; /* アイコンの色 */
+}
+
+#controls-container {
+    text-align: right; /* コントロールを右に配置 */
+    padding-right: 10px; /* 右側のパディングを調整 */
+    /* ...他のスタイル... */
+}
