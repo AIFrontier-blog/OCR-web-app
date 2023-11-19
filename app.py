@@ -4,8 +4,7 @@ import pytesseract
 import io
 import subprocess
 
-pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'  # または正しいパスに置き換えてください
-
+pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
 
 app = Flask(__name__)
