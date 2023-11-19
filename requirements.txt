@@ -37,7 +37,7 @@ scipy
 seaborn
 six==1.16.0
 statsmodels
-threadpoolctl==3.2.0
+threadpoolctl
 typing_extensions==4.8.0
 tzdata==2023.3
 virtualenv==20.24.6
